@@ -20,7 +20,7 @@ def viz_num(num):
 
 
 MODEL_DIR = os.path.join(os.path.dirname('__file__'), 'model_final.h5')
-model = keras.models.load_model(MODEL_DIR)
+model = load_model(MODEL_DIR)
 
 # st.markdown('<style>body{color: White; background-color: DarkSlateGrey}</style>', unsafe_allow_html=True)
 
