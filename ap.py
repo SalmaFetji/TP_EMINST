@@ -28,8 +28,9 @@ def viz_num(num):
 
 ### Load / Preprocess / Predict test.csv dataset ###
 
-MODEL_DIR = os.path.join(os.path.dirname('__file__'), 'model_final.h5')
+MODEL_DIR = os.path.join(os.path.dirname(__file__), 'model_final.h5')
 model = load_model(MODEL_DIR)
+
 
 ###### STREAMLIT ######
 
