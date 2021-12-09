@@ -1,8 +1,5 @@
 import os
-
 import streamlit as st
-
-from tensorflow import keras
 from tensorflow.keras.utils import *
 import tensorflow as tf
 import matplotlib.pyplot as plt
@@ -10,7 +7,6 @@ import pandas as pd
 import numpy as np
 from PIL import Image
 from streamlit_drawable_canvas import st_canvas
-
 from random import randrange
 
 
@@ -29,7 +25,7 @@ def viz_num(num):
 ### Load / Preprocess / Predict test.csv dataset ###
 
 
-model = tf.keras.models.load("models/mode")  
+model = tf.keras.models.load_model("models/mode")  
 
 
 ###### STREAMLIT ######
