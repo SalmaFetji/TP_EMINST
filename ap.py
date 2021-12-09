@@ -13,7 +13,7 @@ from streamlit_drawable_canvas import st_canvas
 
 from random import randrange
 
-#MODEL_DIR = os.path.join(os.path.dirname('__file__'), 'first_model.h5')
+#MODEL_DIR = os.path.join(os.path.dirname('__file__'), 'model_final.h5')
 
 ### Visualization function ###
 def viz_num(num):
